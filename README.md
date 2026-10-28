@@ -1,69 +1,56 @@
-# ⚽ MatchMind AI
-### Football Analytics & Key-Moment Insights
+# EPL Review Match Insights
 
-MatchMind AI is an experimental football analytics application that transforms simulated football event data into visual statistics and easy-to-understand match insights.
+**Turning Simulated Football Events into Clear Match Insights**
 
-The goal is to help football fans explore match activity, compare team performance, and identify periods of intense action through clear visualisations.
+EPL Review Match Insights is a football analytics prototype that transforms simulated football event data into visual statistics and easy-to-understand match insights.
 
-## 🚀 Features
+The project connects my existing football statistics website, [EPL Review](https://www.eplreview.com/), with an interactive analytics application. The goal is to help football fans explore match activity, compare team performance, and identify periods of intense activity.
 
-- **Match Statistics:** Compare event activity between two teams.
-- **Event Visualisation:** Explore passes, shots, tackles, and pressure events.
-- **Key-Moment Insights:** Identify periods with higher shot and pressure activity.
-- **Interactive Dashboard:** View charts, statistics, and concise summaries in a Streamlit web app.
-- **Football Website Connection:** Visit [EPL Review](https://www.eplreview.com/) for football-related content.
+## Features
 
-## 📊 Demo Data
+- **Match Statistics:** Compare football event counts between teams.
+- **Event Visualizations:** Explore passes, shots, tackles, and pressure events.
+- **Passing Performance:** View team pass-completion rates.
+- **Key-Moment Insights:** Identify periods with high match activity and shot counts.
+- **EPL Review Connection:** Visit the existing EPL Review website for football statistics and related content.
 
-This project currently uses **fictional simulated football event data** for demonstration and testing.
-
-The example match between Arsenal and Liverpool is simulated. It is not an actual match result, and the data is not sourced from EPL Review.
-
-## 🛠️ Technology
+## Technology
 
 - Python
 - Streamlit
 - Pandas
-- Data visualisation and event summarisation
 
-## ▶️ Run Locally
+## Data and Limitations
 
-Clone the repository:
+This prototype uses simulated football event data for demonstration. It does not represent an actual Premier League match and does not use data supplied by EPL Review.
 
-```bash
-git clone https://github.com/WongFongTeng/matchmind-ai.git
-cd matchmind-ai
-```
+The current version provides statistics, visualizations, and rule-based insights. It does not claim to provide live match analysis, AI-generated predictions, or verified real-world match outcomes.
 
-Install the required packages:
+## Run Locally
 
-```bash
-pip install streamlit pandas
-```
+1. Install Python.
+2. Install the required packages:
 
-Run the app:
+   ```bash
+   pip install streamlit pandas
+   ```
 
-```bash
-streamlit run matchmind_app.py
-```
+3. Clone this repository:
 
-Open the local URL shown in your terminal.
+   ```bash
+   git clone https://github.com/WongFongTeng/epl-review-match-insights.git
+   ```
 
-## 🌱 Future Development
+4. Open the project folder and run:
 
-Potential enhancements include:
+   ```bash
+   streamlit run matchmind_app.py
+   ```
 
-- More detailed match-event timelines
-- Customisable team and match comparisons
-- Personalised insights for different football audiences
-- Integration with appropriately licensed football datasets
-- Further development of AI-assisted football analysis
+## Project Links
 
-## 🔗 Links
+- **EPL Review Website:** https://www.eplreview.com/
+- **GitHub Repository:** https://github.com/WongFongTeng/epl-review-match-insights
+- **Demo Video:** https://youtu.be/2e-VxEeqkCU
 
-- **GitHub Repository:** https://github.com/WongFongTeng/matchmind-ai
-- **EPL Review:** https://www.eplreview.com/
-
----
-
-*MatchMind AI is an experimental football analytics project. The match data shown in the current demo is simulated and should not be interpreted as official match statistics.*
+*The demo video link will be updated if a new recording is published.*
