@@ -2,18 +2,18 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="MatchMind AI",
+    page_title="EPL Review Match Insights",
     page_icon="⚽",
     layout="wide"
 )
 
-st.title("⚽ MatchMind AI")
-st.subheader("Football Analytics & Key-Moment Insights")
+st.title("⚽ EPL Review Match Insights")
+st.subheader("Turning Simulated Football Events into Clear Match Insights")
 
 st.info(
-    "Welcome! MatchMind AI analyses football events "
-    "to uncover team activity, passing performance, "
-    "and important moments during a match."
+    "Welcome to EPL Review Match Insights. "
+    "Explore simulated football events, compare team activity, "
+    "review passing performance, and identify important match periods."
 )
 
 st.header("Our First Simulated Match")
