@@ -172,3 +172,23 @@ st.caption(
     "Key moments are calculated from fictional simulated match data."
 )
 
+
+st.markdown("---")
+
+st.subheader("⚽ Explore EPL Review")
+
+st.write(
+    "MatchMind AI is an experimental football analytics project "
+    "exploring match statistics and key-moment insights."
+)
+
+st.markdown(
+    "[Visit EPL Review](https://www.eplreview.com/)"
+)
+
+st.caption(
+    "This demo uses fictional simulated match data, "
+    "not data sourced from EPL Review."
+)
+
+
