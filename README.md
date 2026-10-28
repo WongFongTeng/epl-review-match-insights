@@ -51,6 +51,6 @@ The current version provides statistics, visualizations, and rule-based insights
 
 - **EPL Review Website:** https://www.eplreview.com/
 - **GitHub Repository:** https://github.com/WongFongTeng/epl-review-match-insights
-- **Demo Video:** https://youtu.be/2e-VxEeqkCU
+- **Demo Video:** https://youtu.be/T-azM4YEd14
 
 *The demo video link will be updated if a new recording is published.*
